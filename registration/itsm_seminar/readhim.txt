@@ -1,0 +1,2 @@
+ilagay mo sa js na folder yung .js file and sa css yung .css file, then yung mga php file sa labas lang, mga anak sa labas yun eh
+pati pala yung folder na vendor lagay mo sa loob ng js na folder

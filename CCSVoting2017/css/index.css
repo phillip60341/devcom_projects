@@ -1,0 +1,228 @@
+* {
+	margin: 0px auto; 
+	padding: 0px auto;
+	font-family: Century Gothic;
+}
+
+@font-face {
+	font-family: "allura";
+	src: url('../font/Allura-Regular.ttf');
+}
+
+@font-face {
+	font-family: "bebas neue";
+	src: url('../font/BebasNeue.otf');
+}
+
+@font-face {
+	font-family: "steiner";
+	src: url('../font/Steinerlight.ttf');
+}
+
+@font-face {
+	font-family: "wild";
+	src: url('../font/WildYouth-Regular.otf');
+}
+
+@font-face {
+	font-family: "bubu";
+	src: url('../font/BUBU-BOLD.otf');
+}
+
+
+/* ====== INDEX 2017 =====*/
+
+body.back{
+	background-image: url(../images/Voting2017_3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.leftContainer{
+	float: left;
+	width: 56.5%;
+}
+
+.logoContainer{
+	float: left;
+	margin-left: 15%;
+}
+
+
+
+.umakLogo, .uscLogo, .coselLogo{
+	width: 19%;
+	background-color: #e8f6f6;
+	float: left;
+	border-radius: 50%;
+	padding: 1.3%;
+	box-shadow: 1px 8px 40px 5px rgba(0,0,0,0.5);
+	margin-right: 2%;
+}
+
+.umakLogo img, .uscLogo img, .coselLogo img{
+	float: left;
+	width: 100%;
+}
+
+.umakLogo{
+	margin-top: 37%;
+}
+
+.uscLogo{
+	margin-top: 27%;
+}
+
+.coselLogo{
+	margin-top: 17%;
+}
+
+.coselLogo img{
+	width: 100%;
+	padding: 9% 0px;
+}
+
+.humanLogo img {
+	z-index: 99;
+	height: 23%;
+	position: absolute;
+	margin-left: -6%;
+	margin-top: 6%;
+}
+
+.wala{
+	float: left;
+}
+
+.titleContainer{
+	width: 95%;
+	float: left;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+.cosel{
+	width: 43%;
+	background-color: #f55c39;
+	padding: 0.5% 1%;
+	float: left;
+	margin-bottom: 2%;
+}
+
+.cosel p{
+	font-family: Arial;
+	color: white;
+	text-align: center;
+}
+
+.usc{
+	float: left;
+	width: 45%;
+	clear: both;
+}
+
+.usc img{
+	width: 100%;
+}
+
+.year2017{
+	float: left;
+	width: 40%;
+	margin-left: 3%;
+	transform: rotate(-10deg);
+	margin-top: -8%;
+}
+
+.year2017 p{
+	font-family: wild;
+	font-size: 165px;
+	color: #f55c39;
+}
+
+.election{
+	float: left;
+	width: 100%;
+	margin-top: -8%;
+}
+
+.election p{
+	font-family: bubu;
+	font-size: 145px;
+	color: #f55c39;
+}
+
+.rightContainer{
+	width: 29.5%;
+	height: 200px;
+	float: right;
+	padding: 10% 7% 0% 7%;
+}
+
+.loginContainer{
+	border: 3px solid white;
+	background-color: #ece774;
+	padding: 15% 20%;
+	height: 370px;
+	box-shadow: 3px 3px 20px 1px rgb(30,30,30);
+}
+
+.loginContainer table{
+	width: 100%;
+}
+
+.loginContainer table tr td{
+	padding: .5% 0%;
+}
+
+.loginContainer table p{
+	color: #767171;
+	margin-top: 10px;
+}
+
+.loginContainer table tr td input[type="text"]{
+	width: 90%;
+	font-size: 14px;
+	padding: 3% 5%;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 1px 1px 1px gray;
+}
+
+.loginContainer input[type="submit"]{
+	width: 100%;
+	height: 30px;
+	float: left;
+	border: none;
+	margin-top: 20%;
+	background-color: #0070C0;
+	color: white;
+	box-shadow: 1px 1px 1px black;
+}
+
+.loginContainer input[type="submit"]:hover{
+	background-color: #2F5597;
+	transition: background-color .5s;
+}
+
+.warning{
+	font-size: 12px;
+}
+
+.welcome{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 8%;
+	color: #3B3838;
+}
+
+.number {
+	float: left !important;
+	margin-left: 100px !important;
+	font-size: 500px !important;
+	margin-top: -1000px !important;
+	padding-left: 100px !important;
+
+}
+
+/* ====== END =======*/

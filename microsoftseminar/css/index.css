@@ -1,0 +1,246 @@
+@font-face {
+	font-family: "back to black Demo";
+	src: url('../font/Back to Black Demo.ttf');
+}
+
+@font-face {
+	font-family: "bebas neue";
+	src: url('../font/BebasNeue.otf');
+}
+
+/*@font-face {
+	font-family: "Berlin Sans FB";
+	src: url('../font/Berlin.ttf');
+}*/
+
+* {
+	margin: 0px auto; 
+	padding: 0px auto;
+}
+
+body {
+	font-family: century gothic;
+	/*background: url(../images/background.jpg);*/
+	background: url(../images/background.jpg);
+	background-size: 100%;
+
+}
+
+.heading {
+	width: 60.5%;
+	float: left;
+	margin-top: 17%;
+}
+
+.userlogin {
+	width: 39.5%; 
+	float: right;
+	margin-top: 7%;
+
+}
+
+.logform {
+	width: 320px;
+	height: 320px;
+	background-color: rgba(251,249,250,.7);
+	text-align: center;
+	box-shadow: 3px 3px 5px 0px rgba(1,1,1,.6);
+	z-index: 20;
+	padding-top: 80px;
+	float: left;
+}
+
+.logos {
+	float: left;
+	width: 320px;
+	height: 130px;
+	z-index: 50;
+	padding-left: 10px;
+	margin-bottom: -70px; 
+
+}
+
+.umaklogo img {
+	width: 100px;
+	position: absolute;
+	z-index: 150;
+	margin-left: 25px;
+
+}
+
+.ccslogo img {
+	width: 100px;
+	position: absolute;
+	z-index: 311;
+	margin-left: 103px;
+}
+
+.comsoclogo img {
+	width: 100px;
+	position: absolute;
+	z-index: 211;
+	margin-left: 180px;
+}
+
+.propic img {
+	width: 90px;
+}
+
+.logform label {
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+.logform select {
+	width: 215px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.logform input[type="text"] {
+	height: 25px;
+	width: 200px;
+	padding-left: 10px;
+	margin-top: 15px;
+	border-width: .5px;
+	margin-bottom: 10px;
+
+}
+
+.logform input[type="submit"] {
+	background-color: rgb(46,118,96);
+	border: none;
+	height: 30px;
+	width: 210px;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.date {
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin-left: 15px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#month {
+	width: 130px;
+	height: 30px;
+	font-size: 30px;
+	font-family: bebas neue;
+	color: white;
+	float: left;
+	background-color: #1856ab;
+}
+
+#nuday {
+	width: 130px;
+	height: 63px;
+	font-size: 60px;
+	font-family: bebas neue;
+	color: white;
+	float: left;
+	background-color: rgb(188,212,246);
+	margin-top: 2px;
+}
+
+#day {
+	float: right;
+	font-family: bebas neue;
+	font-size: 50px;
+	margin-top: -10px;
+	padding-right: 6px;
+	color: rgb(106,70,12);
+}
+
+#nudate {
+	margin-top: -18px;
+	font-family: bebas neue;
+	font-size: 57px;
+	float: left;
+	padding-left: 7px;
+	color: rgb(52,50,51);
+}
+
+.eventtitle {
+	width: 70%;
+	clear: both;
+	height: 170px;
+	border-bottom: 1px solid rgb(100,100,100);
+	margin-top: 20px;
+
+}
+
+#gen {
+	font-size: 50px;
+	color: #1856ab;
+	width: 415px;
+	position: absolute;
+	font-family: "back to black Demo";	
+	margin-bottom: -20px;
+	z-index: 50;
+	margin-top: 0px;
+}
+
+#uni {
+	font-family: bebas neue;
+	font-size: 55px;
+	color: #373434;
+	width: 390px;
+	float: left;
+	padding-left: 20px;
+	margin-top: 55px;
+	margin-bottom: -15px;
+}
+
+#col {
+	font-family: Berlin Sans FB;
+	font-size: 36px;
+	color: #416857;
+	text-align: center;
+	clear: both;
+}
+
+#grand {
+	float: right;
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+#year {
+	font-family: bebas neue;
+	font-size: 140px;
+	color: #dbb609;
+	float: right;
+	height: 100px;
+	padding-right: 20px;
+	letter-spacing: -20px;
+	margin-top: -15px;
+	margin-left: -5px;	
+
+}
+
+.attendees {
+	text-align:right;
+	clear: both;
+	width: 70%;
+	height: 20px;
+	margin-top: 5px;
+	padding-right: 35px;
+
+}
+
+#number {
+	width: 200px;
+	float: right;
+}
+
+#numero {
+	width: 100px;
+	float: right;
+	font-weight: bold;
+}

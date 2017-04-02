@@ -1,0 +1,286 @@
+* {
+	margin: 0px auto; 
+	padding: 0px auto;
+	font-family: Century Gothic;
+}
+
+body.back{
+	background-image: url(../images/bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.whole_container{
+	width: 100%;
+}
+
+.greeting{
+	width: 100%;
+	float: right;
+	height: 50px;
+	background-color: #f3461e;
+	padding: 0px 12.5%;
+}
+
+.greeting p{
+	text-align: right;	
+	margin-top: 15px;
+	color: white;
+}
+
+
+.college_details{
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 0px 0px 20px 0px;
+	padding: 0% 12.5%;
+	background-color: #ff633f;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.college_name{
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	font-family: Century Gothic;
+	color: white;
+}
+
+.college_name p{
+	margin: 0px;
+}
+
+
+.candidate_container{
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+	padding: 0px 12.5%;
+}
+
+#representative_candidate{
+	display:none;
+}
+
+.candidate_position{
+	background-color: rgb(32,56,100);
+	width: 98.9%;
+	height: 30px;
+	padding-top: 5px;
+}
+
+.candidate_position p{
+	text-align: center;
+	color: white;
+}
+
+.candidate{
+	width: 48.9%;
+	float: left;
+	background-color: rgb(222,235,247);
+	margin: 0px 5px 5px 5.5px;
+}
+
+/*
+.candidate:hover{
+	background-color: rgb(254,248,127);
+	box-shadow: 3px 3px 5px 0px rgba(1,1,1,.6);
+}
+*/	
+.candidate_photo{
+	width:100px;
+	height: 100px;
+	float: left;
+	padding: 5%;
+}
+
+.candidate_details{
+	float: right;
+	width: 65%;
+	margin-top: 30px;
+	line-height: 10px;
+
+}
+/*
+.candidate_details input[type="radio"]{
+	visibility: hidden;
+}
+*/
+.candidate_details label{
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.candidate_details h3{
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-left: 18px;
+}
+
+.candidate_details p{
+	font-size: 14px;
+	margin-left: 18px;
+
+}
+
+#btnSubmit{
+	position:fixed;
+	/*top:80px;*/
+	right:100px;
+	bottom:50px;
+
+	/*position:relative;
+	top:80px;
+	left:850px;*/
+
+	background-color:white;
+	/*background-color:white;*/
+	border:none;
+	border-radius:5px;
+	box-shadow:3px 3px 3px black;
+	padding:10px;
+	color:rgba(32,56,100,1);
+	font-family:century gothic;
+	font-size:24px;
+	transition: background-color 0.5s,color 0.5s;
+}
+
+#btnSubmit:hover{
+	background-color:rgba(32,56,100,1);
+	color:white;
+}
+
+
+.instruct {
+	width: 75%;
+	clear: both;
+	text-align: center;
+	background-color: rgb(255,255,255);
+	padding: 10px 10%;
+	box-shadow: 1px 1px 1px 1px black;
+	border-radius: 10px;
+}
+
+.instruct h5 {
+	font-weight: bolder;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+}
+
+.instruct p {
+	clear: both;
+	color: black;
+	text-align: center;
+	text-indent: inherit;
+}
+
+
+
+.blue{
+	background-color: #298BBC;
+}
+
+.lightBlue{
+	background-color: #B8E2F7;
+}
+
+.lightBlue:hover {
+	background-color: #298BBC;
+	box-shadow: 3px 3px 5px 0px rgba(1,1,1,.6);
+}
+
+.yellow{
+	background-color: #F7D420;
+}
+
+.lightYellow{
+	background-color: #ECE774;
+}
+
+.lightYellow:hover{
+	background-color: #F7D420;
+	box-shadow: 3px 3px 5px 0px rgba(1,1,1,.6);
+}
+
+
+
+
+
+/* modal design */
+
+.modal-content {
+	border-radius: 0px !important;
+}
+
+.modal-header {
+    background-color: #f3461e;
+    color: white;
+    text-align: center;
+}
+
+.modal-body h3{
+	text-align: center;
+	font-size: 16px;
+	line-height: 5px;
+}
+
+.modal-body {
+	margin-top: -10px !important;
+	margin-bottom: -5px !important;
+}
+
+.modal-body-footer {
+	background-color: #298BBC;
+	padding: 15px;
+}
+
+.modal-body-footer p {
+	color: white;
+	line-height: 5px;
+}
+
+.modal-footer {
+	background-color: #ff633f;
+}
+
+.btn-trans {
+	border-radius: 0px !important;
+	background-color: #ff633f;
+	border-color: white;
+	border: solid 1px !important;
+	color: white;
+}
+
+.btn-vote {
+	border-radius: 0px !important;
+	background-color: #ECE774;
+	color: black;
+}
+
+.btn-vote:hover {
+	background-color: #F7D420;
+	color: white !important;
+}
+
+#btnSubmit{
+	border-radius: 0px;
+	box-shadow: 1px 1px 10px 1px black;
+	background-color: #ff633f;
+	color: white;
+}
+
+#btnSubmit:hover{
+	background-color: #f3461e;
+}
+

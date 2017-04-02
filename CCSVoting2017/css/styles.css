@@ -1,0 +1,167 @@
+	* {
+		margin: 0px auto;
+		padding: 0px auto;
+	}
+
+	@font-face {
+	font-family: "back to black Demo";
+	src: url('font/Back to Black Demo.ttf');
+	}
+
+	@font-face {
+		font-family: "bebas neue";
+		src: url('font/BebasNeue.otf');
+	}
+
+	body {
+		background-color: rgb(250,260,250);
+		background-size: 100%;
+	}
+
+	.nav-design {
+		position: fixed !important;
+		float: left;
+		z-index: 80;
+		width: 100%;
+		background-color: #138c9a !important;
+		border-color: transparent !important;
+	}
+
+	.nav-properties li a{
+		color: white;
+	}
+
+	.nav-bar-design {
+		width: 100%;
+	}
+
+	.nav-bar-design img {
+		width: 40px;
+	}
+
+	.nav-bar-design a{
+		padding: 5px;
+		padding-left: 10px;
+	}
+	
+	.nav-bar-design p {
+		color: white !important;
+		text-transform: uppercase;
+	}
+
+
+
+
+
+	.just-left {
+		margin: 0px auto;
+		padding: 0px auto;
+		width: 5%;
+	
+	}
+
+
+	.just-left-l {
+		margin: 0px auto;
+		padding: 0px auto;
+		
+		width: 25%;
+	}
+
+	.just-right {
+		margin: 0px auto;
+		padding: 0px auto;
+		
+		width: 45%;
+		text-align: right;
+	}
+
+	.just-right-r {
+		margin: 0px auto;
+		padding: 0px auto;
+		
+		width: 15%;
+	}
+
+
+
+	
+
+	.container-style {
+		width: 95%;
+		float: right;
+		margin-top: 50px;
+	}
+
+	.clearfix {
+		text-align: center;
+		margin: 20px;
+		margin-left: 130px;
+	}
+
+	.clearfix span {
+		z-index: 1 !important;
+	}
+
+	#peedes {
+		height: 50px;
+	}
+
+	.rowtop {
+		margin-top: 50px;
+	}
+
+	.formsize {
+		width: 200px;
+		float: left;
+	}
+
+	.spacer3{
+		height: 30px; 
+	}
+
+	/*======================*/
+
+
+	.blue-bar{
+		background-color: rgba(0, 112, 192, 1.0);
+		height: 40px;
+		color: white;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 1.3em;
+		padding-top: 7px;
+	}
+
+	.navy-blue-bar{
+		background-color: rgba(222, 235, 247, 1.0);
+	}
+
+	.remove-padding{
+		padding: 0px;
+	}
+	.remove-padding-top {
+		padding-top: 0px;
+	}
+	.remove-padding-bottom{
+		padding-bottom: 0px;
+	}
+
+/*=======VOTERS CANDIDATE ICON=======*/
+	.gray-bg{
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+
+	#candidate-icon{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#image-icon{
+		border-radius: 80%;
+	}
+
+	#candidate-details{
+		padding-top: 20px;
+	}
+

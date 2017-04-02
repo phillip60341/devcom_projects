@@ -1,0 +1,176 @@
+* {
+	padding: 0px auto;
+	margin: 0px auto;
+}
+
+@font-face {
+	font-family: "back to black Demo";
+	src: url('../font/Back to Black Demo.ttf');
+}
+
+@font-face {
+	font-family: "bebas neue";
+	src: url('../font/BebasNeue.otf');
+}
+
+body {
+	background: url(../images/origbc.png);
+	background-size: 100%;
+	font-family: Berlin Sans FB;
+}
+
+.main {
+	width: 80%;
+	text-align: center;
+	clear: both;
+	margin-top: 7%;
+}
+
+.heading {
+	width: 100%;
+	height: 110px;
+}
+
+#h11 {
+	font-size: 55px;
+	font-family: bebas neue;
+	color: #1856ab;
+	width: 110px;
+	float: left;
+}
+
+#h12 {
+	font-size: 55px;
+	font-family: bebas neue;
+	width: 110px;
+	float: left;
+}
+
+.selection {
+	width: 40%;
+	float: left;
+}
+
+#edit {
+	width: 300px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+	background-color: rgb(46,118,96);
+	font-family: bebas neue;
+	text-decoration: none;
+	float: left;
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+#create {
+	width: 300px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+	background-color: rgb(18,60,48);
+	font-family: bebas neue;
+	text-decoration: none;
+	float: left;
+	font-size: 50px;
+}
+
+#edits {
+	width: 300px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+	background-color: rgb(18,60,48);
+	font-family: bebas neue;
+	text-decoration: none;
+	float: left;
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+#creates {
+	width: 300px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+	background-color: rgb(46,118,96);
+	font-family: bebas neue;
+	text-decoration: none;
+	float: left;
+	font-size: 50px;
+}
+
+.form {
+	width: 60%;
+	float: left;
+}
+
+.form p {
+	font-size: 37px;
+	width: 90%;
+	text-align: left;
+	border-bottom: 1px solid black;
+	color: #1856ab;
+	float: left;
+
+}
+
+.form form {
+	margin-top: 50px;
+	float: left;
+}
+
+.form label {
+	font-size: 25px;
+	float: left;
+	text-align: right;
+	width: 140px;
+	margin-bottom: 10px;
+}
+
+.form input[type="text"] {
+	width: 350px;
+	height: 30px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.form select {
+	width: 120px;
+	padding-left: 10px;
+	font-size: 22px;
+	height: 37px;
+}
+
+#start {
+	font-size: 25px;
+	float: left;
+	text-align: right;
+	width: 120px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#end {
+	font-size: 25px;
+	float: left;
+	text-align: right;
+	width: 115px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.form input[type="submit"] {
+	background-color: rgb(224,165,37);
+	border: none;
+	width: 100%;
+	clear: both;
+	margin-top: 50px;
+	height: 60px;
+	color: white;
+	font-size: 35px;
+	font-family: bebas neue;
+}
